@@ -6,10 +6,11 @@ num2 = float(input("Enter the first number2: "))
 num3 = float(input("Enter the first number3: "))
 
 # Checking for the largest number
-if (num1 > num2) and (num1 > num3):
-    print("Num1 is the largest")
-elif(num2 > num1) and (num2 > num3):
-    print("Num2 is the largest")
+if (num1 >= num2) and (num1 >= num3):
+    largest = num1
+elif(num2 >= num1) and (num2 >= num3):
+    largest = num2
 else:
-    print("Num3 is the largest")    
+     largest = num3
+print("The largest number is ", largest)    
         
