@@ -1,0 +1,4 @@
+# This code checks if an integer is positive, negative or zero
+#Takes input from the user
+num = int(input('Enter your number: '))
+if num > 0:
