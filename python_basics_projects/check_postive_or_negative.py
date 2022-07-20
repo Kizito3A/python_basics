@@ -1,9 +1,9 @@
-#This program checks wether an integer is positive, negative or zero
+a = float(input("Enter side a: "))
+b = float(input("Enter side b: "))
+c = float(input("Enter side c: "))
 
-num = int(input('Enter your number: '))
-if num > 0:
-    print('It is a postive number')
-elif num < 0:
-    print('This is negative')
-else:
-    print('The number is zero')
+S = (a + b + c)/2
+
+area  = (S(S-a)*(S-b)*(S-c)) ** 0.5
+
+print("The area of the triangle is %0.2f" %area)
